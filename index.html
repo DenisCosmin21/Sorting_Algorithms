@@ -1,0 +1,25 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+     <div class="butoane">
+         <button onclick ='reset()'>Genereaza numere</button>
+         <button onclick ='reset()'>Reseteaza sirul cu valori noi</button>
+         <button class="algo" id = "Selection-Sort" onclick ='choose("Selection-Sort")'>Selection Sort</button>
+         <button class="algo" id = "Bubble-Sort" onclick ='choose("Bubble-Sort")'>Bubble Sort</button>
+         <button class="algo" id = "Insertion-Sort" onclick="choose('Insertion-Sort')">Insertion Sort</button>
+         <button onclick = 'start()'>Start Algorithm</button>
+         <button onclick = 'stop()'>Stop Algorithm</button>
+     </div>
+     <div class="vizualizare">
+        <div id="titlu">Algoritmi  Sortare</div>
+         <div class="linii">
+         </div>
+     </div>
+     <script src="main.js"></script>
+ </body>
+ </html>
